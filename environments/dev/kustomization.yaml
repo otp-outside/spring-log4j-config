@@ -3,6 +3,9 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
+- digest: "0.1"
+  name: quay.io/siamaksade/spring-petclinic:latest
+  newName: image-registry.openshift-image-registry.svc:5000/cicd/spring-boot-log4j-vulnerable
 - digest: sha256:d5344bc6032780d39f5ce0c026b8be1d95af9f6f5bedaa27c6e011bff0222fd0
-  name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1 
-  newName: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1 
+  name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
+  newName: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
