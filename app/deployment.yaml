@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/name: spring-log4j
     app.kubernetes.io/part-of: spring-log4j
     app.openshift.io/runtime: java
-  gnerateName: spring-log4j-
+  generateName: spring-log4j-
 spec:
   replicas: 1
   selector:
