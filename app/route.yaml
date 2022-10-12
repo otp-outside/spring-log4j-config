@@ -5,8 +5,8 @@ metadata:
     app: spring-log4j
   name: spring-log4j
 spec:
-  log4j:
-    targetlog4j: 8080-tcp
+  port:
+    targetPort: 8080-tcp
   to:
     kind: Service
     name: spring-log4j
