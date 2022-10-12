@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: "0.1"
+- digest: b0669c7c60489fa46935abed12a727bbd11c93768b8a222d59b100c7c96b04c3
   name: quay.io/siamaksade/spring-petclinic:latest
   newName: image-registry.openshift-image-registry.svc:5000/cicd/spring-boot-log4j-vulnerable
 - digest: sha256:d5344bc6032780d39f5ce0c026b8be1d95af9f6f5bedaa27c6e011bff0222fd0
