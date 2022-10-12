@@ -5,7 +5,7 @@ resources:
 images:
 - name: quay.io/siamaksade/spring-petclinic:latest
   newName: image-registry.openshift-image-registry.svc:5000/cicd/spring-boot-log4j-vulnerable
-  newTag: 759431a798cba7c15ac4bb43646895cbe582746d1e3e3fd790bf904c67cc8696
+  newTag: ea66a4163c7ebc11c7fcd07e26b604d4c45fc43270fe7b2fb6100781ed62f8a0
 - name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
   newName: image-registry.openshift-image-registry.svc:5000/cicd/spring-boot-log4j-vulnerable
   newTag: a953f030a1c400ba9f448d3b6b2c7b12b1c73afb82f9ed2cadd96b9746068f00
